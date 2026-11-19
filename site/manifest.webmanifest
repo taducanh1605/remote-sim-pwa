@@ -1,0 +1,25 @@
+{
+  "name": "Remote SIM",
+  "short_name": "Remote SIM",
+  "description": "Nhắn tin SMS, nghe gọi hai chiều và đường hầm IP tại nhà qua thiết bị Remote SIM.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#edf1ec",
+  "theme_color": "#173d2d",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
