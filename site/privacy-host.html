@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Host SIM (com.njk.hostsim)</title>
+  <style>
+    :root { --bg:#f4f7f5; --card:#ffffff; --text:#16221c; --muted:#52655c; --accent:#008069; --border:#dde5e0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0d1411; --card:#151f1a; --text:#e8f0ec; --muted:#9fb2a8; --accent:#25d366; --border:#24352c; }
+    }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    .wrap { max-width:860px; margin:0 auto; padding:24px 16px 48px; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; margin-bottom:18px; }
+    h1 { margin:0 0 6px; font-size:1.6rem; color:var(--accent); }
+    h2 { margin:20px 0 8px; font-size:1.12rem; }
+    p, li { font-size:0.95rem; }
+    .meta { color:var(--muted); font-size:0.86rem; margin-bottom:14px; }
+    .badge { display:inline-block; background:rgba(0,128,105,0.12); color:var(--accent); padding:3px 10px; border-radius:999px; font-size:0.78rem; font-weight:700; }
+    a { color:var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <span class="badge">com.njk.hostsim</span>
+      <h1>Chính sách Quyền riêng tư — Host SIM</h1>
+      <div class="meta">Cập nhật lần cuối: 24/11/2026 • Liên hệ: <a href="mailto:taducanh1605@gmail.com">taducanh1605@gmail.com</a></div>
+      <p><strong>Host SIM</strong> là ứng dụng chạy trên thiết bị của chính bạn để chuyển tiếp cuộc gọi, tin nhắn SMS và kết nối mạng gia đình trực tiếp tới thiết bị cá nhân đã được bạn xác thực (ứng dụng <strong>Remote SIM</strong> hoặc <strong>iOS/Web PWA</strong>).</p>
+      <h2>1. Dữ liệu thuộc quyền sở hữu của bạn (Không lưu trên máy chủ của nhà phát triển)</h2>
+      <ul>
+        <li>Nhà phát triển <strong>không vận hành máy chủ lưu trữ</strong> nội dung tin nhắn SMS, âm thanh cuộc gọi, nhật ký cuộc gọi hay danh bạ của bạn.</li>
+        <li>Mọi tin nhắn SMS, tín hiệu cuộc gọi và thông tin cấu hình chỉ truyền trực tiếp giữa máy Host và thiết bị khách do bạn kết nối, được mã hóa đầu cuối theo phiên và mật khẩu do bạn đặt.</li>
+      </ul>
+      <h2>2. Quyền truy cập Android được sử dụng</h2>
+      <ul>
+        <li><strong>SMS (READ_SMS, SEND_SMS, RECEIVE_SMS):</strong> Nhận và gửi tin nhắn SMS từ SIM đặt trong máy Host theo yêu cầu của bạn.</li>
+        <li><strong>Điện thoại &amp; Cuộc gọi (READ_PHONE_STATE, CALL_PHONE, ANSWER_PHONE_CALLS, READ_CALL_LOG, RECORD_AUDIO):</strong> Nhận/tạo cuộc gọi trên SIM và truyền hai chiều âm thanh giọng nói tới thiết bị của bạn trong khi gọi.</li>
+        <li><strong>Thông báo (POST_NOTIFICATIONS) &amp; Foreground Service:</strong> Hiển thị trạng thái máy trạm Host và thông báo khi có thiết bị mới yêu cầu kết nối.</li>
+      </ul>
+      <h2>3. Quảng cáo &amp; Mua hàng trong ứng dụng</h2>
+      <ul>
+        <li>Phiên bản miễn phí hiển thị quảng cáo thông qua <strong>Google AdMob</strong>. AdMob có thể thu thập mã quảng cáo thiết bị (Advertising ID / <code>AD_ID</code>), địa chỉ IP gần đúng và tương tác quảng cáo theo chính sách của Google.</li>
+        <li>Nếu bạn chọn mua gói <strong>Gỡ quảng cáo</strong> qua <strong>Google Play Billing</strong>, thông tin thanh toán do Google Play xử lý hoàn toàn; ứng dụng chỉ kiểm tra trạng thái đã mua để tắt vĩnh viễn quảng cáo.</li>
+      </ul>
+      <h2>4. Lưu trữ &amp; Xóa dữ liệu</h2>
+      <p>Danh sách thiết bị đã tin cậy, mật khẩu băm và cấu hình cục bộ chỉ lưu trong bộ nhớ riêng của ứng dụng trên điện thoại Host. Gỡ cài đặt hoặc xóa dữ liệu ứng dụng sẽ xóa toàn bộ dữ liệu này ngay lập tức.</p>
+    </div>
+
+    <div class="card">
+      <span class="badge">English Version</span>
+      <h1>Privacy Policy — Host SIM</h1>
+      <div class="meta">Last updated: November 24, 2026 • Contact: <a href="mailto:taducanh1605@gmail.com">taducanh1605@gmail.com</a></div>
+      <p><strong>Host SIM</strong> (<code>com.njk.hostsim</code>) operates directly on your own Android device to bridge calls, SMS messages, and your home VPN connection exclusively to your own authenticated client devices (<strong>Remote SIM</strong> Android app or the official Web PWA at <a href="https://taducanh1605.github.io/remote-sim-pwa/">taducanh1605.github.io/remote-sim-pwa/</a>).</p>
+      <h2>1. Data Ownership &amp; Direct Device-to-Device Flow</h2>
+      <ul>
+        <li>The developer does <strong>not</strong> collect, view, sell, or store your SMS contents, call audio, call logs, or phone numbers on any developer-owned cloud servers.</li>
+        <li>Voice audio, SMS messages, and commands travel directly between your Host device and your paired client devices using the credentials you configure.</li>
+      </ul>
+      <h2>2. Permissions Used &amp; Why</h2>
+      <ul>
+        <li><strong>SMS permissions:</strong> Required solely to forward incoming SIM SMS messages to your paired device and send outgoing SMS messages that you initiate.</li>
+        <li><strong>Phone, Call Log &amp; Microphone permissions:</strong> Required to place, answer, and forward SIM voice calls to and from your paired device while a call is active.</li>
+        <li><strong>Foreground Service &amp; Notifications:</strong> Keeps the SIM bridge reachable and alerts you about pairing requests or connection state.</li>
+      </ul>
+      <h2>3. Advertising &amp; Optional In-App Purchase</h2>
+      <ul>
+        <li>The free ad-supported edition uses <strong>Google AdMob</strong>, which may process the Android Advertising ID (<code>AD_ID</code>), device info, and ad performance signals in accordance with Google's Privacy Policy.</li>
+        <li>Optional <strong>Remove Ads</strong> purchases are processed solely by <strong>Google Play Billing</strong>. We never receive your credit card or banking details.</li>
+      </ul>
+      <h2>4. Data Retention &amp; Contact</h2>
+      <p>All configuration and paired-device records remain locally on your device and are removed when you clear app data or uninstall the app. For questions or support, email <a href="mailto:taducanh1605@gmail.com">taducanh1605@gmail.com</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
